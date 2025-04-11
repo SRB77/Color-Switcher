@@ -1,34 +1,44 @@
 html {
-    margin: 0;
-  }
-  
-  span {
-    display: block;
-  }
-  .canvas {
-    margin: 100px auto 100px;
-    width: 80%;
-    text-align: center;
-  }
-  
-  .button {
-    width: 100px;
-    height: 100px;
-    border: solid black 2px;
-    display: inline-block;
-  }
-  
-  #grey {
-    background: grey;
-  }
-  
-  #green {
-    background: green;
-  }
-  #blue {
-    background: blue;
-  }
-  #yellow {
-    background: yellow;
-  }
-  
+  margin: 0;
+}
+
+span {
+  display: block;
+}
+.canvas {
+  margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  display: inline-block;
+}
+
+#grey {
+  background: grey;
+}
+
+#green {
+  background: green;
+}
+#blue {
+  background: blue;
+}
+#yellow {
+  background: yellow;
+}
+.randombtn {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.randombtn button {
+  border-radius: 30px;
+  padding: 20px;
+  background-color: transparent;
+}
